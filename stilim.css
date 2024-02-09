@@ -1,0 +1,205 @@
+@charset "utf-8";
+/*******RESET******/
+ 
+html, body, h1, h2, h3, h4, h5, h6,
+a, p, span, em, small, strong,
+sub, sup, mark, del, ins, strike,
+abbr, dfn, blockquote, q, cite,
+code, pre, ol, ul, li, dl, dt, dd,
+div, section, article, main, aside, nav,
+header, hgroup, footer, img, figure, figcaption,
+address, time, audio, video,
+canvas, iframe, details, summary,
+fieldset, form, label, legend,
+table, caption,tbody, tfoot, thead,
+tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*******RESET******/
+body {
+	background-image: url(resimler/brickwall.png);
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	height: auto;
+	width: 870px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+header {
+	padding: 0px;
+	height: 150px;
+	width: 870px;
+	margin-bottom: 1px;
+}
+
+nav {
+	height: 35px;
+	width: 870px;
+	margin-bottom: 5px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #E5EDFA;
+	text-decoration: none;
+	background-color: #3572A1;
+	text-align: center;
+	display: block;
+	width: 108px;
+	margin-top: 5px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #BB4646;
+    padding-right: 15px;
+}
+nav ul li a:hover {
+	background-color: #bb4646;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #bb4646;
+	margin-top: 0px;
+}
+
+section {
+	background-color: #FFF;
+	height: auto;
+	width: 870px;
+	padding-top: 5px;
+	float: left;
+}
+footer {
+	background-color: #3572a1;
+	float: left;
+	height: 17px;
+	width: 870px;
+	padding-top: 3px;
+}
+aside {
+	float: left;
+	height: auto;
+	width: 190px;	
+}
+
+article {
+	font-size: 12px;
+	line-height: 16px;
+	text-align: justify;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 480px;
+}
+
+aside div {
+	font-size: 11px;
+	background-color: #f5f5f5;
+	height: auto;
+	width: 179px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	border: 1px solid #666666;
+}
+
+.yan_menu_baslik {
+	font-size: 14px;
+	line-height: 25px;
+	color: #ffffff;
+	/*background:linear-gradient(#82a4d8,#2f6690);*/
+	background-image: url(resimler/buton_zemin.png);
+	text-align: center;
+	margin: 0px;
+    height: auto;
+}
+aside div ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+aside div ul li{
+	border-bottom: 1px solid #e8e7d0;
+}
+aside div ul li a{
+	display: block;
+	width: 163px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+aside div ul li a:hover{
+    color: #ffffff;
+	background-color: #bb4646;
+	border-left: 7px solid #3572a1;
+}
+article a{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;
+}
+article a:hover{
+	color: #BB4646;
+}
+.baslik {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #3572A1;
+	text-align: center;
+}
+article ul{
+	margin-left: 40px;
+}
+.model{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #BB4646;
+    margin: 5px 5px 5px 5px ;
+    float: left;
+}
+#renk{
+	width:480px ;
+	height: auto;
+	margin: 5px 5px 5px 5px;
+}
+#fiyat{
+	width: 150px;
+	height: 150px;
+	margin-right: 5px;
+	float: left;
+}
+h1{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+h2{
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	color: red;
+}
